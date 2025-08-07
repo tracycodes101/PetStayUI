@@ -1,7 +1,7 @@
 window.PETSTAY_CONFIG = {
   AWS_REGION: "us-east-2",
   COGNITO_USER_POOL_ID: "us-east-2_CJrYNzRUD",
-  COGNITO_USER_POOL_CLIENT_ID: "1181q9f6rle3uqibsdt87dsmee",
+  COGNITO_USER_POOL_CLIENT_ID: "43o3bunon9egnasufkleviefml",
   COGNITO_DOMAIN: "us-east-2cjrynzrud.auth.us-east-2.amazoncognito.com",
 
   REDIRECT_SIGN_IN_URL: "https://main.d2e5ikjs7s989k.amplifyapp.com/admin-frontend/post-login.html",
