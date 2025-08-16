@@ -8,10 +8,19 @@ window.PETSTAY_CONFIG = {
   REDIRECT_SIGN_OUT_URL: "https://main.d2e5ikjs7s989k.amplifyapp.com/index.html",
   REDIRECT_ADMIN_SIGN_IN_URL: "https://main.d2e5ikjs7s989k.amplifyapp.com/admin-frontend/post-login.html",
 
-  BOOKINGS_API_URL: "{{BOOKINGS_API_URL}}",
-  ROOMS_AVAILABILITY_API_URL: "{{ROOMS_AVAILABILITY_API_URL}}",
-  NEW_BOOKING_API_URL: "{{NEW_BOOKING_API_URL}}",
-  CHECKIN_API_URL: "{{CHECKIN_API_URL}}"
+  API_BASE_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed',
+  BOOKINGS_API_URL: "https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/booking",
+  BOOKING_STATUS_API_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/bookingStatus',
+  BOOKINGS_API_URL: "https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/bookings",
+  ROOMS_AVAILABILITY_API_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/rooms/availability',
+  NEW_BOOKING_API_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/newbooking',
+  CONFIRM_BOOKING_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/confirm',
+  CANCEL_BOOKING_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/cancel',
+  CHECKIN_BOOKING_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/checkin',
+  CHECKOUT_BOOKING_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/checkout',
+  RESTORE_BOOKING_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/restore',
+  PET_PHOTO_UPLOAD_URL: 'https://pe3tysfmt5.execute-api.us-east-2.amazonaws.com/deployed/upload-url',
+  PET_PHOTO_PUBLIC_URL_BASE: 'https://petstayphotos1.s3.amazonaws.com',
 };
 
 // Safety check: crash the page if placeholders were not replaced
